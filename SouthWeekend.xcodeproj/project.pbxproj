@@ -54,14 +54,54 @@
 		AEB6D1F81E476259006A23EB /* SouthWeekend */ = {
 			isa = PBXGroup;
 			children = (
+				AEB6D2131E4762FE006A23EB /* Supporting Files */,
+				AEB6D2121E4762E9006A23EB /* Util */,
+				AEB6D20C1E47627B006A23EB /* UI */,
+				AEB6D20B1E476273006A23EB /* Model */,
+				AEB6D20D1E476281006A23EB /* Network */,
 				AEB6D1F91E476259006A23EB /* AppDelegate.swift */,
-				AEB6D1FB1E47625A006A23EB /* ViewController.swift */,
 				AEB6D1FD1E47625A006A23EB /* Main.storyboard */,
 				AEB6D2001E47625A006A23EB /* Assets.xcassets */,
 				AEB6D2021E47625A006A23EB /* LaunchScreen.storyboard */,
 				AEB6D2051E47625A006A23EB /* Info.plist */,
 			);
 			path = SouthWeekend;
+			sourceTree = "<group>";
+		};
+		AEB6D20B1E476273006A23EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AEB6D20C1E47627B006A23EB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AEB6D1FB1E47625A006A23EB /* ViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		AEB6D20D1E476281006A23EB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		AEB6D2121E4762E9006A23EB /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		AEB6D2131E4762FE006A23EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
