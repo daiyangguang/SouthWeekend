@@ -48,7 +48,7 @@
                             <outlet property="delegate" destination="CHa-mN-ghG" id="ewA-BB-BXe"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="我" image="tabbar_icon_news_normal" selectedImage="tabbar_icon_me_highlight" id="9jr-Fo-MZF"/>
+                    <tabBarItem key="tabBarItem" title="我" image="tabbar_icon_me_normal" selectedImage="tabbar_icon_me_highlight" id="9jr-Fo-MZF"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ass-Ri-Ccj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -115,6 +115,7 @@
     </scenes>
     <resources>
         <image name="tabbar_icon_me_highlight" width="19" height="19"/>
+        <image name="tabbar_icon_me_normal" width="19" height="19"/>
         <image name="tabbar_icon_media_highlight" width="19" height="19"/>
         <image name="tabbar_icon_media_normal" width="19" height="19"/>
         <image name="tabbar_icon_news_highlight" width="21" height="16"/>
