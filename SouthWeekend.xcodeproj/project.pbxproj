@@ -13,6 +13,7 @@
 		AEB6D1FF1E47625A006A23EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB6D1FD1E47625A006A23EB /* Main.storyboard */; };
 		AEB6D2011E47625A006A23EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEB6D2001E47625A006A23EB /* Assets.xcassets */; };
 		AEB6D2041E47625A006A23EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB6D2021E47625A006A23EB /* LaunchScreen.storyboard */; };
+		AEB6D2161E4770C9006A23EB /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6D2151E4770C9006A23EB /* Router.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		AEB6D2001E47625A006A23EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEB6D2031E47625A006A23EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEB6D2051E47625A006A23EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEB6D2151E4770C9006A23EB /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		AEB6D20D1E476281006A23EB /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				AEB6D2141E477048006A23EB /* Router */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -117,6 +120,14 @@
 			children = (
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEB6D2141E477048006A23EB /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				AEB6D2151E4770C9006A23EB /* Router.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 		E3B7751813D274EA82876452 /* Pods */ = {
@@ -253,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEB6D1FC1E47625A006A23EB /* ViewController.swift in Sources */,
+				AEB6D2161E4770C9006A23EB /* Router.swift in Sources */,
 				AEB6D1FA1E476259006A23EB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
