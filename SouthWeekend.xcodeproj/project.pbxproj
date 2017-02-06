@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2B313499A6EF9574F24727F1 /* Pods_SouthWeekend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D5728F2E50E03151ED44E0E /* Pods_SouthWeekend.framework */; };
+		AE2304231E481C0300B867A6 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2304221E481C0300B867A6 /* BaseViewController.swift */; };
+		AE2304281E481F1100B867A6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2304271E481F1100B867A6 /* Extensions.swift */; };
 		AEB6D1FA1E476259006A23EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6D1F91E476259006A23EB /* AppDelegate.swift */; };
 		AEB6D1FC1E47625A006A23EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6D1FB1E47625A006A23EB /* ViewController.swift */; };
 		AEB6D1FF1E47625A006A23EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB6D1FD1E47625A006A23EB /* Main.storyboard */; };
@@ -21,6 +23,8 @@
 		0D5728F2E50E03151ED44E0E /* Pods_SouthWeekend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SouthWeekend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43DFAE12143C00927741E666 /* Pods-SouthWeekend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SouthWeekend.release.xcconfig"; path = "Pods/Target Support Files/Pods-SouthWeekend/Pods-SouthWeekend.release.xcconfig"; sourceTree = "<group>"; };
 		6A01D0F4D262E1DD405011A2 /* Pods-SouthWeekend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SouthWeekend.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SouthWeekend/Pods-SouthWeekend.debug.xcconfig"; sourceTree = "<group>"; };
+		AE2304221E481C0300B867A6 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		AE2304271E481F1100B867A6 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		AEB6D1F61E476259006A23EB /* SouthWeekend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SouthWeekend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB6D1F91E476259006A23EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEB6D1FB1E47625A006A23EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +101,7 @@
 		AEB6D20C1E47627B006A23EB /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				AE2304221E481C0300B867A6 /* BaseViewController.swift */,
 				AEB6D1FB1E47625A006A23EB /* ViewController.swift */,
 				AEB6D21A1E477B8D006A23EB /* CustomTabBarViewController.swift */,
 			);
@@ -114,6 +119,7 @@
 		AEB6D2121E4762E9006A23EB /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				AE2304271E481F1100B867A6 /* Extensions.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -266,6 +272,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE2304231E481C0300B867A6 /* BaseViewController.swift in Sources */,
+				AE2304281E481F1100B867A6 /* Extensions.swift in Sources */,
 				AEB6D1FC1E47625A006A23EB /* ViewController.swift in Sources */,
 				AEB6D2161E4770C9006A23EB /* Router.swift in Sources */,
 				AEB6D21B1E477B8D006A23EB /* CustomTabBarViewController.swift in Sources */,
