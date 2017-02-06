@@ -10,6 +10,10 @@
 		2B313499A6EF9574F24727F1 /* Pods_SouthWeekend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D5728F2E50E03151ED44E0E /* Pods_SouthWeekend.framework */; };
 		AE2304231E481C0300B867A6 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2304221E481C0300B867A6 /* BaseViewController.swift */; };
 		AE2304281E481F1100B867A6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2304271E481F1100B867A6 /* Extensions.swift */; };
+		AE23042E1E48512300B867A6 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE23042D1E48512300B867A6 /* News.storyboard */; };
+		AE2304301E48518E00B867A6 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE23042F1E48518E00B867A6 /* NewsViewController.swift */; };
+		AE2304371E485A7800B867A6 /* NewsContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2304361E485A7800B867A6 /* NewsContainerViewController.swift */; };
+		AE2304391E485E9C00B867A6 /* ResourceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2304381E485E9C00B867A6 /* ResourceProvider.swift */; };
 		AEB6D1FA1E476259006A23EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6D1F91E476259006A23EB /* AppDelegate.swift */; };
 		AEB6D1FC1E47625A006A23EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6D1FB1E47625A006A23EB /* ViewController.swift */; };
 		AEB6D1FF1E47625A006A23EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB6D1FD1E47625A006A23EB /* Main.storyboard */; };
@@ -25,6 +29,10 @@
 		6A01D0F4D262E1DD405011A2 /* Pods-SouthWeekend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SouthWeekend.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SouthWeekend/Pods-SouthWeekend.debug.xcconfig"; sourceTree = "<group>"; };
 		AE2304221E481C0300B867A6 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		AE2304271E481F1100B867A6 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AE23042D1E48512300B867A6 /* News.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = News.storyboard; sourceTree = "<group>"; };
+		AE23042F1E48518E00B867A6 /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		AE2304361E485A7800B867A6 /* NewsContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsContainerViewController.swift; sourceTree = "<group>"; };
+		AE2304381E485E9C00B867A6 /* ResourceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceProvider.swift; sourceTree = "<group>"; };
 		AEB6D1F61E476259006A23EB /* SouthWeekend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SouthWeekend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB6D1F91E476259006A23EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEB6D1FB1E47625A006A23EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +62,16 @@
 				0D5728F2E50E03151ED44E0E /* Pods_SouthWeekend.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE23042C1E4850F400B867A6 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				AE23042D1E48512300B867A6 /* News.storyboard */,
+				AE23042F1E48518E00B867A6 /* NewsViewController.swift */,
+				AE2304361E485A7800B867A6 /* NewsContainerViewController.swift */,
+			);
+			path = News;
 			sourceTree = "<group>";
 		};
 		AEB6D1ED1E476259006A23EB = {
@@ -101,6 +119,7 @@
 		AEB6D20C1E47627B006A23EB /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				AE23042C1E4850F400B867A6 /* News */,
 				AE2304221E481C0300B867A6 /* BaseViewController.swift */,
 				AEB6D1FB1E47625A006A23EB /* ViewController.swift */,
 				AEB6D21A1E477B8D006A23EB /* CustomTabBarViewController.swift */,
@@ -120,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				AE2304271E481F1100B867A6 /* Extensions.swift */,
+				AE2304381E485E9C00B867A6 /* ResourceProvider.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -214,6 +234,7 @@
 				AEB6D2041E47625A006A23EB /* LaunchScreen.storyboard in Resources */,
 				AEB6D2011E47625A006A23EB /* Assets.xcassets in Resources */,
 				AEB6D1FF1E47625A006A23EB /* Main.storyboard in Resources */,
+				AE23042E1E48512300B867A6 /* News.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +294,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE2304231E481C0300B867A6 /* BaseViewController.swift in Sources */,
+				AE2304371E485A7800B867A6 /* NewsContainerViewController.swift in Sources */,
 				AE2304281E481F1100B867A6 /* Extensions.swift in Sources */,
 				AEB6D1FC1E47625A006A23EB /* ViewController.swift in Sources */,
+				AE2304391E485E9C00B867A6 /* ResourceProvider.swift in Sources */,
 				AEB6D2161E4770C9006A23EB /* Router.swift in Sources */,
+				AE2304301E48518E00B867A6 /* NewsViewController.swift in Sources */,
 				AEB6D21B1E477B8D006A23EB /* CustomTabBarViewController.swift in Sources */,
 				AEB6D1FA1E476259006A23EB /* AppDelegate.swift in Sources */,
 			);

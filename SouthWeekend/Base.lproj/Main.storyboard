@@ -57,6 +57,7 @@
         <!--南方周末-->
         <scene sceneID="gNa-3Z-bo0">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BUO-iO-3fj" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="0dS-LV-x2h" customClass="ViewController" customModule="SouthWeekend" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ApL-b3-eIG"/>
@@ -71,7 +72,6 @@
                     <navigationItem key="navigationItem" title="南方周末" id="ijM-v0-ZOQ"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="BUO-iO-3fj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="791.20000000000005" y="-525.78710644677665"/>
         </scene>
