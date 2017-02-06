@@ -8,7 +8,7 @@
 
 import UIKit
 
-class NewsContainerViewController: UIViewController, UIPageViewControllerDataSource {
+class NewsContainerViewController: BaseViewController, UIPageViewControllerDataSource {
     var pageViewController: UIPageViewController!
     var viewControllers: [NewsViewController] = []
     var currentIndex = 0

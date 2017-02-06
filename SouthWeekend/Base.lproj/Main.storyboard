@@ -73,7 +73,7 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="791.20000000000005" y="-525.78710644677665"/>
+            <point key="canvasLocation" x="1391" y="-526"/>
         </scene>
         <!--报纸-->
         <scene sceneID="73Z-pd-KFF">
@@ -131,12 +131,22 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="0dS-LV-x2h" kind="relationship" relationship="rootViewController" id="CJG-Yg-X2C"/>
+                        <segue destination="UUg-6W-4ZY" kind="relationship" relationship="rootViewController" id="lNC-LI-YDZ"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PEV-Zc-B1T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-148" y="-525.78710644677665"/>
+        </scene>
+        <!--NewsContainerViewController-->
+        <scene sceneID="rBE-Nu-Gbq">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="NewsContainerViewController" storyboardName="News" referencedIdentifier="NewsContainerViewController" id="UUg-6W-4ZY" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="dAO-hZ-AcE"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r3o-0H-5Mf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="521" y="-809"/>
         </scene>
     </scenes>
     <resources>
