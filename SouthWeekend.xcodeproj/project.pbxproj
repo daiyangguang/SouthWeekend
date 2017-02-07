@@ -14,6 +14,7 @@
 		AE2304301E48518E00B867A6 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE23042F1E48518E00B867A6 /* NewsViewController.swift */; };
 		AE2304371E485A7800B867A6 /* NewsContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2304361E485A7800B867A6 /* NewsContainerViewController.swift */; };
 		AE2304391E485E9C00B867A6 /* ResourceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2304381E485E9C00B867A6 /* ResourceProvider.swift */; };
+		AE2304431E496A3700B867A6 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2304421E496A3700B867A6 /* NewsTableViewCell.swift */; };
 		AEB6D1FA1E476259006A23EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6D1F91E476259006A23EB /* AppDelegate.swift */; };
 		AEB6D1FC1E47625A006A23EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6D1FB1E47625A006A23EB /* ViewController.swift */; };
 		AEB6D1FF1E47625A006A23EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB6D1FD1E47625A006A23EB /* Main.storyboard */; };
@@ -33,6 +34,7 @@
 		AE23042F1E48518E00B867A6 /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		AE2304361E485A7800B867A6 /* NewsContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsContainerViewController.swift; sourceTree = "<group>"; };
 		AE2304381E485E9C00B867A6 /* ResourceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceProvider.swift; sourceTree = "<group>"; };
+		AE2304421E496A3700B867A6 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		AEB6D1F61E476259006A23EB /* SouthWeekend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SouthWeekend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB6D1F91E476259006A23EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEB6D1FB1E47625A006A23EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 			children = (
 				AE23042D1E48512300B867A6 /* News.storyboard */,
 				AE23042F1E48518E00B867A6 /* NewsViewController.swift */,
+				AE2304421E496A3700B867A6 /* NewsTableViewCell.swift */,
 				AE2304361E485A7800B867A6 /* NewsContainerViewController.swift */,
 			);
 			path = News;
@@ -295,6 +298,7 @@
 			files = (
 				AE2304231E481C0300B867A6 /* BaseViewController.swift in Sources */,
 				AE2304371E485A7800B867A6 /* NewsContainerViewController.swift in Sources */,
+				AE2304431E496A3700B867A6 /* NewsTableViewCell.swift in Sources */,
 				AE2304281E481F1100B867A6 /* Extensions.swift in Sources */,
 				AEB6D1FC1E47625A006A23EB /* ViewController.swift in Sources */,
 				AE2304391E485E9C00B867A6 /* ResourceProvider.swift in Sources */,

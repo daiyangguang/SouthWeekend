@@ -13,17 +13,19 @@ class NewsContainerViewController: BaseViewController, UIPageViewControllerDataS
     var viewControllers: [NewsViewController] = []
     var currentIndex = 0
     var topSpace: CGFloat = NavigationBarHeight
-
     override func viewDidLoad() {
         super.viewDidLoad()
         loadViewControllers()
-        // Do any additional setup after loading the view.
+        configureCollectionView()
     }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
+    private func configureCollectionView() {
+        
+    }
+
     private func loadViewControllers() {
         if pageViewController == .none {
             configurePageViewController()
@@ -89,9 +91,6 @@ class NewsContainerViewController: BaseViewController, UIPageViewControllerDataS
 
     }
     
-    
-    
-    
 }
 
 // MARK: - UIPageViewControllerDelegate
@@ -108,3 +107,4 @@ extension NewsContainerViewController: UIPageViewControllerDelegate {
         
     }
 }
+

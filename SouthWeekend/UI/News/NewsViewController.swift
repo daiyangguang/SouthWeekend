@@ -8,12 +8,16 @@
 
 import UIKit
 
-class NewsViewController: BaseViewController {
+class NewsViewController: BaseViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var nameLable: UILabel!
     var pageIndex = 0
+    
+    @IBOutlet weak var tbView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        tbView.dataSource = self
+        tbView.delegate = self
         nameLable.text = "第\(pageIndex)页面"
     }
 
@@ -21,16 +25,33 @@ class NewsViewController: BaseViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    //MARK: TableViewDataSource
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10
     }
-    */
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "newsCell", for: indexPath) as! NewsTableViewCell
+        return cell
+        
+    }
+    //MARK: TableViewDelegate
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("🐱🐱🐱🐱🐱🐱选中了\(indexPath.row)行")
+        tableView.deselectRow(at: indexPath, animated: true)
+
+    }
+    
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 100
+    }
+
+    
+    
+    
+    
+    
 
 }
