@@ -13,7 +13,6 @@ class CustomTabBarViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tabBar.tintColor = UIColor.red
-//        tabBar.shadowImage = UIImage(named: "tabbar_shadow")
 
     }
 

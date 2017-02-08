@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2B313499A6EF9574F24727F1 /* Pods_SouthWeekend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D5728F2E50E03151ED44E0E /* Pods_SouthWeekend.framework */; };
+		AE118A331E4AD58600D4F932 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE118A311E4AD58600D4F932 /* NewsModel.swift */; };
+		AE118A341E4AD58600D4F932 /* SnsShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE118A321E4AD58600D4F932 /* SnsShare.swift */; };
+		AE118A3B1E4AE50800D4F932 /* NSDate+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE118A3A1E4AE50800D4F932 /* NSDate+Formatter.swift */; };
 		AE2304231E481C0300B867A6 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2304221E481C0300B867A6 /* BaseViewController.swift */; };
 		AE2304281E481F1100B867A6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2304271E481F1100B867A6 /* Extensions.swift */; };
 		AE23042E1E48512300B867A6 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE23042D1E48512300B867A6 /* News.storyboard */; };
@@ -28,6 +31,9 @@
 		0D5728F2E50E03151ED44E0E /* Pods_SouthWeekend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SouthWeekend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43DFAE12143C00927741E666 /* Pods-SouthWeekend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SouthWeekend.release.xcconfig"; path = "Pods/Target Support Files/Pods-SouthWeekend/Pods-SouthWeekend.release.xcconfig"; sourceTree = "<group>"; };
 		6A01D0F4D262E1DD405011A2 /* Pods-SouthWeekend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SouthWeekend.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SouthWeekend/Pods-SouthWeekend.debug.xcconfig"; sourceTree = "<group>"; };
+		AE118A311E4AD58600D4F932 /* NewsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		AE118A321E4AD58600D4F932 /* SnsShare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnsShare.swift; sourceTree = "<group>"; };
+		AE118A3A1E4AE50800D4F932 /* NSDate+Formatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Formatter.swift"; sourceTree = "<group>"; };
 		AE2304221E481C0300B867A6 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		AE2304271E481F1100B867A6 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		AE23042D1E48512300B867A6 /* News.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = News.storyboard; sourceTree = "<group>"; };
@@ -64,6 +70,15 @@
 				0D5728F2E50E03151ED44E0E /* Pods_SouthWeekend.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE118A0B1E49D46400D4F932 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				AE118A311E4AD58600D4F932 /* NewsModel.swift */,
+				AE118A321E4AD58600D4F932 /* SnsShare.swift */,
+			);
+			path = News;
 			sourceTree = "<group>";
 		};
 		AE23042C1E4850F400B867A6 /* News */ = {
@@ -115,6 +130,7 @@
 		AEB6D20B1E476273006A23EB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AE118A0B1E49D46400D4F932 /* News */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -143,6 +159,7 @@
 			children = (
 				AE2304271E481F1100B867A6 /* Extensions.swift */,
 				AE2304381E485E9C00B867A6 /* ResourceProvider.swift */,
+				AE118A3A1E4AE50800D4F932 /* NSDate+Formatter.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -296,13 +313,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE118A3B1E4AE50800D4F932 /* NSDate+Formatter.swift in Sources */,
 				AE2304231E481C0300B867A6 /* BaseViewController.swift in Sources */,
 				AE2304371E485A7800B867A6 /* NewsContainerViewController.swift in Sources */,
 				AE2304431E496A3700B867A6 /* NewsTableViewCell.swift in Sources */,
 				AE2304281E481F1100B867A6 /* Extensions.swift in Sources */,
 				AEB6D1FC1E47625A006A23EB /* ViewController.swift in Sources */,
 				AE2304391E485E9C00B867A6 /* ResourceProvider.swift in Sources */,
+				AE118A331E4AD58600D4F932 /* NewsModel.swift in Sources */,
 				AEB6D2161E4770C9006A23EB /* Router.swift in Sources */,
+				AE118A341E4AD58600D4F932 /* SnsShare.swift in Sources */,
 				AE2304301E48518E00B867A6 /* NewsViewController.swift in Sources */,
 				AEB6D21B1E477B8D006A23EB /* CustomTabBarViewController.swift in Sources */,
 				AEB6D1FA1E476259006A23EB /* AppDelegate.swift in Sources */,
