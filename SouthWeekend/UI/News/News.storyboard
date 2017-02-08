@@ -33,7 +33,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="114"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Zck-Rv-Wo2" id="ddZ-DL-PxB">
-                                            <frame key="frameInset" width="375" height="113"/>
+                                            <frame key="frameInset" width="375" height="113.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4JH-96-nnK">
@@ -54,7 +54,6 @@
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12月29日" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qZY-P7-loJ">
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="21" id="Wf7-lt-ewl"/>
                                                         <constraint firstAttribute="width" constant="44.5" id="oe6-Xc-SvI"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="10"/>
@@ -68,10 +67,10 @@
                                                 <constraint firstItem="nNK-xx-i6b" firstAttribute="bottom" secondItem="4JH-96-nnK" secondAttribute="bottom" id="ErV-Oe-SZl"/>
                                                 <constraint firstItem="qZY-P7-loJ" firstAttribute="leading" secondItem="nNK-xx-i6b" secondAttribute="trailing" constant="10" id="HXz-ze-bWE"/>
                                                 <constraint firstAttribute="leadingMargin" secondItem="4JH-96-nnK" secondAttribute="leading" id="SPq-Za-VKe"/>
+                                                <constraint firstItem="qZY-P7-loJ" firstAttribute="bottom" secondItem="nNK-xx-i6b" secondAttribute="bottom" id="iIf-cB-9Po"/>
                                                 <constraint firstItem="03L-iu-C9c" firstAttribute="leading" secondItem="4JH-96-nnK" secondAttribute="trailing" constant="8" id="lVS-Bf-lhB"/>
                                                 <constraint firstItem="4JH-96-nnK" firstAttribute="top" secondItem="ddZ-DL-PxB" secondAttribute="topMargin" constant="6" id="oBv-Mv-qIv"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="qZY-P7-loJ" secondAttribute="trailing" id="oVW-ge-gfl"/>
-                                                <constraint firstItem="qZY-P7-loJ" firstAttribute="bottom" secondItem="nNK-xx-i6b" secondAttribute="bottom" id="pHC-vc-gJg"/>
                                                 <constraint firstItem="03L-iu-C9c" firstAttribute="top" secondItem="4JH-96-nnK" secondAttribute="top" id="sRj-CP-CAW"/>
                                             </constraints>
                                         </tableViewCellContentView>
