@@ -14,6 +14,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>RainyRefreshControl-RainyRefreshControl.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RainyRefreshControl.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SDWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,12 +37,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0A476A28C686BACE9BCD040EE37ABF4A</key>
+		<key>36B09232845AED628A3787EB12376E5A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2EB885ED4CEE9D9EAA94ABF55B23356F</key>
+		<key>3C25F8AD2AA01FF472B0BC8E10DBF0F9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>42C4CE826EB14932244C315D5C5BDB4D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>51FFCEE2FF9DD5367ACA370966BC4760</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -42,7 +62,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8833E8096F4AD27454496938FF65AE97</key>
+		<key>7FDE6D1568B67FF8AD9A1C2BA62973FB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

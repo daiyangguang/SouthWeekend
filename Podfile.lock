@@ -1,20 +1,33 @@
 PODS:
   - Alamofire (4.3.0)
+  - RainyRefreshControl (0.4.0)
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
-  - SwiftyJSON (3.1.4)
+  - SwiftyJSON (2.3.2)
 
 DEPENDENCIES:
   - Alamofire (~> 4.3)
+  - RainyRefreshControl
   - SDWebImage (~> 3.8)
-  - SwiftyJSON
+  - SwiftyJSON (from `https://github.com/acegreen/SwiftyJSON.git`, branch `swift3`)
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :branch: swift3
+    :git: https://github.com/acegreen/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 8971384559780e631b041ac91b16734a396d4c14
+    :git: https://github.com/acegreen/SwiftyJSON.git
 
 SPEC CHECKSUMS:
   Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  RainyRefreshControl: de2236ad2f46d6cfb22bf029e0067b48cdcb2925
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
-  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
 
-PODFILE CHECKSUM: 6024d6deee053db1bf06b747dba583adc2998ae3
+PODFILE CHECKSUM: 88b2c2900d454833f80a87fe9b82c26089ee4701
 
 COCOAPODS: 1.0.1
