@@ -10,6 +10,7 @@ import UIKit
 import Alamofire
 import SDWebImage
 import SwiftyJSON
+import RainyRefreshControl
 class NewsViewController: BaseViewController, UITableViewDataSource, UITableViewDelegate {
     let homePageUrl = "http://www.infzm.com/mobile/get_list_by_cat_ids?cat_id%5B%5D=5282&start=0&count=10&platform=ireader&device=Unknown%20iPad&version=5.2.3&system_version=10.2&hash=9d3ecafe1ff4ebc82ae2b9411cf309f8&format=json"
     @IBOutlet weak var nameLable: UILabel!
@@ -22,6 +23,14 @@ class NewsViewController: BaseViewController, UITableViewDataSource, UITableView
         tbView.delegate = self
         nameLable.text = "第\(pageIndex)页面"
         fillDataSource()
+        let refresh = RainyRefreshControl()
+        refresh.addTarget(self, action: #selector(loadMore), for: .valueChanged)
+        tbView.addSubview(refresh)
+        
+    }
+    func loadMore(index: Int) {
+        print("加载更多")
+        fillDataSource()
     }
     func fillDataSource() {
         networkRequest()
@@ -29,7 +38,6 @@ class NewsViewController: BaseViewController, UITableViewDataSource, UITableView
     func networkRequest() {
         Alamofire.request(URL(string: homePageUrl)!, method: .get, parameters: .none).responseJSON { (responese) in
             guard let responese = responese.result.value else { return() }
-//            print(responese)
             guard let resultArr = responese as? [NSDictionary] else { return () }
             resultArr.forEach({ (data) in
                 let newsModel = NewsModel(fromDictionary: data)
@@ -72,6 +80,9 @@ class NewsViewController: BaseViewController, UITableViewDataSource, UITableView
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
+    }
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        
     }
 
     
